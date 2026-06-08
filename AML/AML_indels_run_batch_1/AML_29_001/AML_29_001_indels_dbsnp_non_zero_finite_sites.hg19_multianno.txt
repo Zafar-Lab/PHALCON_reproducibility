@@ -1,0 +1,7 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr2	198267244	198267245	AA	-	intronic	SF3B1	NA	NA	NA	2q33.1
+chr10	106721610	106721610	G	A	intronic	SORCS3	NA	NA	NA	10q25.1
+chr15	90631934	90631934	C	T	exonic	IDH2	NA	nonsynonymous SNV	IDH2:NM_001290114:exon2:c.G29A:p.R10Q,IDH2:NM_001289910:exon4:c.G263A:p.R88Q,IDH2:NM_002168:exon4:c.G419A:p.R140Q	15q26.1
+chr17	7577407	7577407	A	C	intronic	TP53	NA	NA	NA	17p13.1
+chr17	7577427	7577427	G	A	intronic	TP53	NA	NA	NA	17p13.1
+chr20	31022440	31022440	-	A	exonic	ASXL1	NA	frameshift insertion	ASXL1:NM_001363734:exon11:c.1743dupA:p.G582Rfs*15,ASXL1:NM_015338:exon12:c.1926dupA:p.G643Rfs*15	20q11.21

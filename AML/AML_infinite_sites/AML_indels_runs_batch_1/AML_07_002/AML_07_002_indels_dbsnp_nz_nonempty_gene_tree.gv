@@ -1,0 +1,7 @@
+digraph G {
+10 [label="NONE(dist=NONE),NONE(dist=NONE)_62094388,IDH2_90631985"];
+12 [label="ATXN1-AS1(dist=309726),STMND1(dist=25441)_17076840,FLT3_28602226"];
+14 [label="IDH2_90631934"];
+10 -> 12
+12 -> 14
+}

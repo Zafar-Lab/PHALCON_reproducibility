@@ -1,0 +1,173 @@
+df looks like [['chr1' 115256326 'A' ... '14,0,0,0' '79,0,0,0' '52,0,0,0']
+ ['chr1' 115256328 'A' ... '14,0,0,0' '79,0,0,0' '52,0,0,0']
+ ['chr1' 115256329 'A' ... '14,0,0,0' '79,0,0,0' '52,0,0,0']
+ ...
+ ['chr21' 44524502 'A' ... '8,0,0,0' '39,0,0,0' '17,0,0,0']
+ ['chr21' 44524503 'A' ... '8,0,0,0' '39,0,0,0' '17,0,0,0']
+ ['chr21' 44524505 'A' ... '8,0,0,0' '39,0,0,0' '10,3,0,0']]
+Dimensions of the input matrix:  (3920, 8466)
+Read count matrix shape after computing alternate alleles is:  (3920, 8466)
+ Genotype quality matrix :
+ [[99 99 93 ... 42 99 99]
+ [99 99 93 ... 42 99 99]
+ [99 99 93 ... 42 99 99]
+ ...
+ [87 99 49 ... 24 99 10]
+ [67 86 72 ... 24 75  7]
+ [99 99  0 ... 24 32 88]]
+
+
+Genotype Quality shape  (3920, 8462)
+Read count matrix shape  (3920, 8466)
+how many were made to be zero at geno qual filter  93003
+-------After Genotype quality filter-------
+Read count matrix shape :  (3920, 8466)
+Genotype quality matrix shape :  (3920, 8462)
+Length of alternate alleles :  3920
+
+
+-------After Read depth quality filter-------
+Read count matrix shape :  (3920, 8466)
+Genotype quality matrix shape :  (3920, 8462)
+Length of alternate alleles :  3920
+
+
+Number of Sites:  3920
+Number of Cells:  8462
+Read count matrix shape:  (3920, 8466) 
+Likelihood matrix shape:  (3920, 8462) 
+Length of computed alternate alleles:  3920
+
+
+Computing likelihoods... 
+-------After computing likelihood matrix-------
+Read count matrix shape :  (3920, 8466)
+Genotype quality matrix shape :  (3920, 8462)
+Likelihood matrix shape :  (3920, 8462)
+Length of alternate alleles :  3920
+
+
+-------After Alternate Allele Frequency filter-------
+Read count matrix shape :  (3920, 8466)
+Genotype quality matrix shape :  (3920, 8462)
+Likelihood matrix shape :  (3920, 8462)
+Length of alternate alleles :  3920
+
+
+how does df look after alt allele freq filter [['chr1' 115256326 'A' ... '14,0,0,0' '79,0,0,0' '52,0,0,0']
+ ['chr1' 115256328 'A' ... '14,0,0,0' '79,0,0,0' '52,0,0,0']
+ ['chr1' 115256329 'A' ... '14,0,0,0' '79,0,0,0' '52,0,0,0']
+ ...
+ ['chr21' 44524502 'A' ... '0,0,0,0' '39,0,0,0' '0,0,0,0']
+ ['chr21' 44524503 'A' ... '0,0,0,0' '39,0,0,0' '0,0,0,0']
+ ['chr21' 44524505 'A' ... '0,0,0,0' '39,0,0,0' '10,3,0,0']]
+num of pos retained after third filter:  3595
+Positions retained after Variant removal filter :  3595
+-------After Variant removal filter-------
+Read count matrix shape :  (3595, 8466)
+Genotype quality matrix shape :  (3595, 8462)
+Likelihood matrix shape :  (3595, 8462)
+Length of alternate alleles :  3595
+
+
+Read Count data dimension at start of VariantRemovalMutated filter:  (3595, 8466)
+GQ dimension at start of VariantRemovalMutated filter:  (3595, 8462)
+Length of positions retained after FINAL FILTER:  15
+chr2 	 198266943 	 C 	  alt inferred:  T  true_alt:  T
+chr4 	 55599436 	 T 	  alt inferred:  C  true_alt:  C
+chr5 	 170837457 	 A 	  alt inferred:  G  true_alt:  G
+chr6 	 17076840 	 C 	  alt inferred:  A  true_alt:  A
+chr6 	 40116264 	 T 	  alt inferred:  G  true_alt:  G
+chr6 	 62094388 	 T 	  alt inferred:  C  true_alt:  C
+chr10 	 5554293 	 T 	  alt inferred:  C  true_alt:  C
+chr13 	 28592546 	 T 	  alt inferred:  C  true_alt:  C
+chr13 	 28602226 	 * 	  alt inferred:  A+AAG  true_alt:  A+AAG
+chr15 	 90631934 	 C 	  alt inferred:  T  true_alt:  T
+chr15 	 90631985 	 A 	  alt inferred:  G  true_alt:  G
+chr17 	 7578115 	 T 	  alt inferred:  C  true_alt:  C
+chr18 	 9750662 	 T 	  alt inferred:  C  true_alt:  C
+chr20 	 31022959 	 T 	  alt inferred:  C  true_alt:  C
+chr21 	 44524290 	 A 	  alt inferred:  C  true_alt:  C
+-------After Variant removal mutated filter-------
+Read count matrix shape :  (15, 8466)
+Genotype quality matrix shape :  (15, 8462)
+Likelihood matrix shape :  (3595, 8462)
+Length of alternate alleles :  15
+-------Filters applied !-------
+Time taken for filtering:  318.2134778499603
+
+
+Computing lklhd after filters....
+-------Final dimensions after all filters are applied-------
+Read count matrix shape :  (15, 8466)
+Genotype quality matrix shape :  (15, 8462)
+Likelihood matrix shape :  (15, 8462)
+Length of alternate alleles :  15
+
+
+Start resolution :  0.25
+End resolution :  1.5
+At resolution : 0.1
+Resolution :  0.1
+Number of Clusters :  8
+iteration #  0
+iteration #  1
+iteration #  2
+no more better proposed trees
+terminating the search
+Resolution :  0.1 	Likelihood : -8146.9717669487 	Silhouette Score : 0.19407405709503256
+At resolution : 0.2
+Resolution :  0.2
+Number of Clusters :  10
+iteration #  0
+iteration #  1
+iteration #  2
+no more better proposed trees
+terminating the search
+Resolution :  0.2 	Likelihood : -8146.9717669487 	Silhouette Score : 0.22585763728146277
+At resolution : 0.3
+Resolution :  0.3
+Number of Clusters :  15
+Number of clusters :  15
+Number of clusters greater! skipping!
+At resolution : 0.4
+Resolution :  0.4
+Number of Clusters :  18
+Number of clusters :  18
+Number of clusters greater! skipping!
+At resolution : 0.5
+Resolution :  0.5
+Number of Clusters :  20
+Number of clusters :  20
+Number of clusters greater! skipping!
+At resolution : 0.75
+Resolution :  0.75
+Number of Clusters :  24
+Number of clusters :  24
+Number of clusters greater! skipping!
+At resolution : 1
+Resolution :  1
+Number of Clusters :  26
+Number of clusters :  26
+Number of clusters greater! skipping!
+Algorithm completed in:  526.6154577732086  secs
+Length of likelihood list :  2
+Length of matrices :  2
+Length of cluster list :  [8, 10]
+Length of silhouette scores :  [0.19407405709503256, 0.22585763728146277]
+List of trees shape: 2
+Best geno names shape : 2
+Cluster list is : [8, 10]
+-------Final dimensions after the complete algorithm -------
+Number of cells :  8462
+Number of genomic positions retained :  15
+Read count matrix shape :  (15, 8466)
+Genotype quality matrix shape :  (15, 8462)
+Likelihood matrix shape :  (8462, 15)
+Inferred genotypes matrix :  (15, 8462)
+Length of alternate alleles :  15
+-------------------------------------------------------
+-------------------------------------------------------
+Writing inferred genotypes as VCF file...
+Final inferred clusters in the tree:  10
+Final inferred distinct genotypes:  3

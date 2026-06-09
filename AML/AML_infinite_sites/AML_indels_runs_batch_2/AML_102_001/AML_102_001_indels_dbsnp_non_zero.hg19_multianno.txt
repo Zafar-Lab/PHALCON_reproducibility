@@ -1,0 +1,8 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr4	106194088	106194088	T	C	ncRNA_intronic	TET2-AS1	NA	NA	NA	4q24
+chr11	32417914	32417914	-	T	exonic	WT1	NA	frameshift insertion	WT1:NM_000378:exon6:c.1101dupA:p.R368Tfs*5,WT1:NM_001198552:exon6:c.450dupA:p.R151Tfs*5,WT1:NM_001198551:exon7:c.501dupA:p.R168Tfs*5,WT1:NM_024424:exon7:c.1152dupA:p.R385Tfs*5,WT1:NM_024426:exon7:c.1152dupA:p.R385Tfs*5	11p13
+chr13	28592642	28592642	C	A	exonic	FLT3	NA	nonsynonymous SNV	FLT3:NM_004119:exon20:c.G2503T:p.D835Y	13q12.2
+chr17	29563076	29563076	-	G	intronic	NF1	NA	NA	NA	17q11.2
+chrX	44918222	44918222	T	-	intronic	KDM6A	NA	NA	NA	Xp11.3
+chrX	44949952	44949952	T	-	intronic	KDM6A	NA	NA	NA	Xp11.3
+chrX	123204979	123204979	T	-	intronic	STAG2	NA	NA	NA	Xq25

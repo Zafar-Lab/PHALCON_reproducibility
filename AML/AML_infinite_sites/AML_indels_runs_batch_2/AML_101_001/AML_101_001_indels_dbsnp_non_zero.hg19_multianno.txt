@@ -1,0 +1,6 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr4	106194088	106194088	T	C	ncRNA_intronic	TET2-AS1	NA	NA	NA	4q24
+chrX	15838366	15838366	C	T	exonic	ZRSR2	NA	synonymous SNV	ZRSR2:NM_005089:exon10:c.C864T:p.N288N	Xp22.2
+chrX	44918222	44918222	T	-	intronic	KDM6A	NA	NA	NA	Xp11.3
+chrX	44949952	44949952	T	-	intronic	KDM6A	NA	NA	NA	Xp11.3
+chrX	123204979	123204979	T	-	intronic	STAG2	NA	NA	NA	Xq25

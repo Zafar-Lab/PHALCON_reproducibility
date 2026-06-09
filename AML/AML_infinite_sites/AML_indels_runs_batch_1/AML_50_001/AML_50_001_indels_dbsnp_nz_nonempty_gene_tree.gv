@@ -1,0 +1,9 @@
+digraph G {
+11 [label="NONE(dist=NONE),NONE(dist=NONE)_62094388"];
+13 [label="NPM1_170837457"];
+16 [label="NPM1_170837543"];
+17 [label="U2AF1,U2AF1L5_44524505"];
+11 -> 13
+13 -> 16
+16 -> 17
+}

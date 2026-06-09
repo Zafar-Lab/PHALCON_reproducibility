@@ -1,0 +1,23 @@
+digraph G {
+0 [label="PTPN11_112927043,FLT3_28602226"];
+1 [label=""];
+2 [label=""];
+3 [label=""];
+4 [label="NRAS_115258744,DNMT3A_25457242,LRMDA_77210191,SORCS3_106721610,WT1_32417945,FLT3(NM_004119:exon14:c.1837+10>AGTGGGGTGATTTCAGAGAATATGAATATGA)_28608218,CES1P2_55770629"];
+5 [label="WT1_32417935"];
+6 [label=""];
+7 [label=""];
+8 [label=""];
+9 [label=""];
+10 [label="SF3B1_198267243"];
+0 -> 1
+0 -> 10
+1 -> 2
+1 -> 9
+2 -> 3
+2 -> 4
+4 -> 5
+4 -> 6
+6 -> 7
+6 -> 8
+}

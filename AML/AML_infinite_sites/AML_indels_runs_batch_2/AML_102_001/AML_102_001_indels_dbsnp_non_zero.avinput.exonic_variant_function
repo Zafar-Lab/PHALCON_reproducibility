@@ -1,0 +1,2 @@
+line2	frameshift insertion	WT1:NM_000378:exon6:c.1101dupA:p.R368fs,WT1:NM_001198552:exon6:c.450dupA:p.R151fs,WT1:NM_024424:exon7:c.1152dupA:p.R385fs,WT1:NM_024426:exon7:c.1152dupA:p.R385fs,WT1:NM_001198551:exon7:c.501dupA:p.R168fs,	chr11	32417914	32417914	-	T	0.5	*	153
+line3	nonsynonymous SNV	FLT3:NM_004119:exon20:c.G2503T:p.D835Y,	chr13	28592642	28592642	C	A	0.5	*	97

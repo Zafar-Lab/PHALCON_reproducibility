@@ -1,0 +1,4 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr10	106721610	106721610	G	A	intronic	SORCS3	NA	NA	NA	10q25.1
+chr12	112927043	112927043	C	T	intronic	PTPN11	NA	NA	NA	12q24.13
+chr13	28602226	28602226	0	0	intronic	FLT3	NA	NA	NA	13q12.2

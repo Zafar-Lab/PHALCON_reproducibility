@@ -1,0 +1,8 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr4	106194088	106194088	T	C	ncRNA_intronic	TET2-AS1	NA	NA	NA	4q24
+chr7	148543694	148543694	A	-	intronic	EZH2	NA	NA	NA	7q36.1
+chr17	29562734	29562734	C	A	exonic	NF1	NA	nonsynonymous SNV	NF1:NM_000267:exon28:c.C3814A:p.Q1272K,NF1:NM_001042492:exon28:c.C3814A:p.Q1272K	17q11.2
+chr17	29563076	29563076	-	G	intronic	NF1	NA	NA	NA	17q11.2
+chrX	15841230	15841230	-	AGCCGG	exonic	ZRSR2	NA	nonframeshift insertion	ZRSR2:NM_005089:exon11:c.1314_1315insAGCCGG:p.R448_R449insSR	Xp22.2
+chrX	44918222	44918222	T	-	intronic	KDM6A	NA	NA	NA	Xp11.3
+chrX	44949952	44949952	T	-	intronic	KDM6A	NA	NA	NA	Xp11.3

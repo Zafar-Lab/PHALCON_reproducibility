@@ -1,0 +1,5 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr2	198266834	198266834	T	C	exonic	SF3B1	NA	nonsynonymous SNV	SF3B1:NM_012433:exon15:c.A2098G:p.K700E	2q33.1
+chr10	106721610	106721610	G	A	intronic	SORCS3	NA	NA	NA	10q25.1
+chr12	25398284	25398284	C	T	exonic	KRAS	NA	nonsynonymous SNV	KRAS:NM_001369786:exon2:c.G35A:p.G12D,KRAS:NM_001369787:exon2:c.G35A:p.G12D,KRAS:NM_004985:exon2:c.G35A:p.G12D,KRAS:NM_033360:exon2:c.G35A:p.G12D	12p12.1
+chr12	112927043	112927043	C	T	intronic	PTPN11	NA	NA	NA	12q24.13

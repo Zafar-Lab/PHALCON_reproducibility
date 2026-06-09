@@ -1,0 +1,8 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr2	198267243	198267243	-	A	intronic	SF3B1	NA	NA	NA	2q33.1
+chr13	28602226	28602226	0	0	intronic	FLT3	NA	NA	NA	13q12.2
+chr13	28608224	28608224	0	0	exonic	FLT3	NA	NA	NA	13q12.2
+chr17	7577407	7577407	A	C	intronic	TP53	NA	NA	NA	17p13.1
+chr17	7577427	7577427	G	A	intronic	TP53	NA	NA	NA	17p13.1
+chr17	7578115	7578115	T	C	intronic	TP53	NA	NA	NA	17p13.1
+chr21	36252849	36252849	C	T	intronic	RUNX1	NA	NA	NA	21q22.12

@@ -1,0 +1,13 @@
+digraph G {
+9 [label="NONE(dist=NONE),NONE(dist=NONE)_62094388,SORCS3_106721610"];
+11 [label="TP53_7577407,TP53_7577427"];
+13 [label="IDH2_90631934"];
+24 [label="NRAS_115258747"];
+20 [label="FLT3_28602340"];
+21 [label="FLT3_28602228"];
+9 -> 11
+11 -> 13
+13 -> 24
+13 -> 20
+13 -> 21
+}

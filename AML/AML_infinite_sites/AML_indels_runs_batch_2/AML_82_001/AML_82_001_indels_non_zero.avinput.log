@@ -1,0 +1,14 @@
+ANNOVAR Version:
+	$Date: 2020-06-07 23:56:37 -0400 (Sun,  7 Jun 2020) $
+ANNOVAR Information:
+	For questions, comments, documentation, bug reports and program update, please visit http://www.openbioinformatics.org/annovar/
+ANNOVAR Command:
+	annotate_variation.pl -buildver hg19 /home/priya/Downloads/Final_Stage/AML_Results/AML_indels_runs_batch_2/AML_82_001/AML_82_001_indels_non_zero.avinput humandb/
+ANNOVAR Started:
+	Tue Oct 15 18:26:58 2024
+NOTICE: The --geneanno operation is set to ON by default
+NOTICE: Output files are written to /home/priya/Downloads/Final_Stage/AML_Results/AML_indels_runs_batch_2/AML_82_001/AML_82_001_indels_non_zero.avinput.variant_function, /home/priya/Downloads/Final_Stage/AML_Results/AML_indels_runs_batch_2/AML_82_001/AML_82_001_indels_non_zero.avinput.exonic_variant_function
+NOTICE: Reading gene annotation from humandb/hg19_refGene.txt ... Done with 78239 transcripts (including 18578 without coding sequence annotation) for 28293 unique genes
+NOTICE: Processing next batch with 47 unique variants in 47 input lines
+NOTICE: Reading FASTA sequences from humandb/hg19_refGeneMrna.fa ... Done with 45 sequences
+WARNING: A total of 465 sequences will be ignored due to lack of correct ORF annotation

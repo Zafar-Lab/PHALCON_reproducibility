@@ -1,0 +1,42 @@
+df looks like [['chr1' 36932057 'G' ... '0,0,371,0' '4,0,527,0' '0,0,99,0']
+ ['chr1' 36932060 'T' ... '0,0,0,365' '0,0,0,517' '0,0,0,99']
+ ['chr1' 36932061 'G' ... '0,0,368,0' '4,0,527,0' '0,0,99,0']
+ ...
+ ['chrX' 133559353 'G' ... '0,0,326,0' '0,0,454,0' '0,0,314,0']
+ ['chrX' 133559360 'G' ... '0,0,326,0' '2,0,448,0' '0,0,322,0']
+ ['chrX' 133559365 'G' ... '0,0,332,0' '0,0,454,0' '0,0,318,0']]
+Dimensions of the input matrix:  (57224, 5686)
+Read count matrix shape after computing alternate alleles is:  (57223, 5686)
+ Genotype quality matrix :
+ [[99 99 99 ... 99 99 99]
+ [99 99 99 ... 99 99 99]
+ [99 99 99 ... 99 99 99]
+ ...
+ [99 99 99 ... 99 99 99]
+ [99 99 99 ... 99 99 99]
+ [99 99 99 ... 99 99 99]]
+
+
+Genotype Quality shape  (57223, 5682)
+Read count matrix shape  (57223, 5686)
+how many were made to be zero at geno qual filter  1257557
+-------After Genotype quality filter-------
+Read count matrix shape :  (57223, 5686)
+Genotype quality matrix shape :  (57223, 5682)
+Length of alternate alleles :  57223
+
+
+-------After Read depth quality filter-------
+Read count matrix shape :  (57223, 5686)
+Genotype quality matrix shape :  (57223, 5682)
+Length of alternate alleles :  57223
+
+
+Number of Sites:  57223
+Number of Cells:  5682
+Read count matrix shape:  (57223, 5686) 
+Likelihood matrix shape:  (57223, 5682) 
+Length of computed alternate alleles:  57223
+
+
+Computing likelihoods... 

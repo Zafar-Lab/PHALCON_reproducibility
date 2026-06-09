@@ -1,0 +1,1 @@
+I accidentally wrote over the "redundant" files where we were supposed to find variants that were obtained jus after removing all zeros and clonal dbsnp variants. In order to find those, you may need to run the pipeline for this file alone.

@@ -1,0 +1,24 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="DNMT3A_25463285\nASXL1_31022824", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="U2AF1_44514777\nBCOR_39916479\nSTAG2_123197782", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="U2AF1_44524456", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="NRAS_115258748\nNRAS_115258749", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="RUNX1_36171613\nRUNX1_36171614", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="DNMT3A_25469085\nIDH2_90631934\nBCOR_39913239", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 9;
+    2 -> 3;
+    2 -> 8;
+    3 -> 4;
+    3 -> 7;
+    4 -> 5;
+    4 -> 6;
+}

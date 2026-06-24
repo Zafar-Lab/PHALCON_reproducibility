@@ -1,0 +1,68 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="NPM1_170837544", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="IDH1_209113112", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="PTPN11_112888165", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="KRAS_25398284", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="IDH2_90631934", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="FLT3_28608261", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    13 [label="FLT3_28608324", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    14 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    15 [label="NRAS_115258745", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    16 [label="NRAS_115258747", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    17 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Box nodes — one per original PHALCON cluster
+    90003 [label="674 cells", shape=box, style="filled,rounded", fillcolor="#f58231", fontsize=10];
+    90002 [label="853 cells", shape=box, style="filled,rounded", fillcolor="#4363d8", fontsize=10];
+    90009 [label="263 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90006 [label="452 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90000 [label="2026 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90001 [label="959 cells", shape=box, style="filled,rounded", fillcolor="#3cb44b", fontsize=10];
+    90005 [label="553 cells", shape=box, style="filled,rounded", fillcolor="#3cb44b", fontsize=10];
+    90011 [label="44 cells", shape=box, style="filled,rounded", fillcolor="#bfef45", fontsize=10];
+    90010 [label="228 cells", shape=box, style="filled,rounded", fillcolor="#3cb44b", fontsize=10];
+    90004 [label="618 cells", shape=box, style="filled,rounded", fillcolor="#911eb4", fontsize=10];
+    90008 [label="273 cells", shape=box, style="filled,rounded", fillcolor="#f032e6", fontsize=10];
+    90007 [label="292 cells", shape=box, style="filled,rounded", fillcolor="#42d4f4", fontsize=10];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 9;
+    2 -> 3;
+    2 -> 4;
+    2 -> 5;
+    5 -> 6;
+    5 -> 7;
+    5 -> 8;
+    9 -> 10;
+    9 -> 15;
+    9 -> 16;
+    9 -> 17;
+    10 -> 11;
+    10 -> 12;
+    10 -> 13;
+    10 -> 14;
+
+    // Leaf → box edges
+    3 -> 90003;
+    4 -> 90002;
+    6 -> 90009;
+    7 -> 90006;
+    8 -> 90000;
+    11 -> 90001;
+    12 -> 90005;
+    13 -> 90011;
+    14 -> 90010;
+    15 -> 90004;
+    16 -> 90008;
+    17 -> 90007;
+}

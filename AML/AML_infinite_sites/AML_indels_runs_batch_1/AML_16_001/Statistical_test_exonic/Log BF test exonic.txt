@@ -1,2 +1,0 @@
-Data	Site number	PHALCON_inferred_log_lklhd	FP_inferred_log_lklhd
-AML_16_001	44524505	-3326.9930419921875	-3596.2895992969443

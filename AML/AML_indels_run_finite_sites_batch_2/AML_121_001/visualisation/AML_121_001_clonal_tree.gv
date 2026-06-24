@@ -1,0 +1,58 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="EZH2_148543583\nTP53_7579440\nBCOR_39934328\nSTAG2_123197838\nPHF6_133549184\nPHF6_133549186", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="NF1_29508775", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="DNMT3A_25466795\nDNMT3A_25466803", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="DNMT3A_25457242", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="FLT3_28592642", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="KRAS_25398284", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    13 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    14 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Box nodes — one per original PHALCON cluster
+    90008 [label="19 cells", shape=box, style="filled,rounded", fillcolor="#911eb4", fontsize=10];
+    90003 [label="65 cells", shape=box, style="filled,rounded", fillcolor="#3cb44b", fontsize=10];
+    90001 [label="291 cells", shape=box, style="filled,rounded", fillcolor="#3cb44b", fontsize=10];
+    90007 [label="31 cells", shape=box, style="filled,rounded", fillcolor="#4363d8", fontsize=10];
+    90005 [label="44 cells", shape=box, style="filled,rounded", fillcolor="#f58231", fontsize=10];
+    90004 [label="50 cells", shape=box, style="filled,rounded", fillcolor="#4363d8", fontsize=10];
+    90002 [label="162 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90006 [label="32 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90000 [label="324 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90009 [label="8 cells", shape=box, style="filled,rounded", fillcolor="#42d4f4", fontsize=10];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 14;
+    2 -> 3;
+    2 -> 4;
+    2 -> 5;
+    2 -> 6;
+    6 -> 7;
+    6 -> 8;
+    6 -> 9;
+    6 -> 10;
+    10 -> 11;
+    10 -> 12;
+    10 -> 13;
+
+    // Leaf → box edges
+    3 -> 90008;
+    4 -> 90003;
+    5 -> 90001;
+    7 -> 90007;
+    8 -> 90005;
+    9 -> 90004;
+    11 -> 90002;
+    12 -> 90006;
+    13 -> 90000;
+    14 -> 90009;
+}

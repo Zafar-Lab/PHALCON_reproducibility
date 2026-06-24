@@ -1,2 +1,0 @@
-Final inferred clusters in the tree	Final inferred distinct genotypes
-9	2

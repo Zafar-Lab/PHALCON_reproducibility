@@ -1,5 +1,0 @@
-digraph G {
-3 [label=""];
-4 [label="DNMT3A_25457242"];
-3 -> 4
-}

@@ -1,0 +1,3 @@
+merged_cluster	original_clusters	status
+0	[0, 1, 3, 4, 5, 6, 7]	merged from [0, 1, 3, 4, 5, 6, 7]
+2	[2]	unchanged

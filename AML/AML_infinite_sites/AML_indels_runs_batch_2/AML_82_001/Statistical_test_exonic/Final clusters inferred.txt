@@ -1,2 +1,0 @@
-Final inferred clusters in the tree: 12
-Final inferred distinct genotypes: 2

@@ -1,7 +1,0 @@
-digraph G {
-7 [label=""];
-8 [label="STAG2_123220460"];
-13 [label="DNMT3A_25470582"];
-7 -> 8
-8 -> 13
-}

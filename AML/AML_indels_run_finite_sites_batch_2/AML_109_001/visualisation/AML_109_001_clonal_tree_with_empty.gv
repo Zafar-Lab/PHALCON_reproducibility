@@ -1,0 +1,36 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="RAD21_117864217\nIDH2_90631934", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="BCOR_39932907\nBCOR_39933339", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="RAD21_117864217-", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="IDH2_90631934-", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    13 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    14 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    15 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 15;
+    2 -> 3;
+    2 -> 8;
+    3 -> 4;
+    3 -> 5;
+    5 -> 6;
+    5 -> 7;
+    8 -> 9;
+    8 -> 12;
+    9 -> 10;
+    9 -> 11;
+    12 -> 13;
+    12 -> 14;
+}

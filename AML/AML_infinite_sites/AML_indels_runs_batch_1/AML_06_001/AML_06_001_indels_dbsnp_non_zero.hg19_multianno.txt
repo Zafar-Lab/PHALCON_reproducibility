@@ -1,5 +1,0 @@
-Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
-chr1	115256528	115256528	T	G	exonic	NRAS	NA	nonsynonymous SNV	NRAS:NM_002524:exon3:c.A183C:p.Q61H	1p13.2
-chr1	115258747	115258747	C	T	exonic	NRAS	NA	nonsynonymous SNV	NRAS:NM_002524:exon2:c.G35A:p.G12D	1p13.2
-chr7	148504717	148504717	G	-	UTR3	EZH2	NM_004456:c.*21delC;NM_001203249:c.*21delC;NM_001203248:c.*21delC;NM_001203247:c.*21delC;NM_152998:c.*21delC	NA	NA	7q36.1
-chr7	148504854	148504854	-	GACTT	intronic	EZH2	NA	NA	NA	7q36.1

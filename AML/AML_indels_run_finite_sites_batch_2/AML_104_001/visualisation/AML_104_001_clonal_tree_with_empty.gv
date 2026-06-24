@@ -1,0 +1,40 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="ZRSR2_15838366", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="DNMT3A_25536827", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="TET2_106156163\nIDH2_90631934\nPHF6_133511717", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="RAD21_117864217\nSETBP1_42532606", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="ZRSR2(dist=21)_15841403", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="TET2_106158315", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    13 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    14 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    15 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    16 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    17 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 5;
+    2 -> 3;
+    2 -> 4;
+    5 -> 6;
+    5 -> 15;
+    6 -> 7;
+    6 -> 8;
+    8 -> 9;
+    8 -> 10;
+    10 -> 11;
+    10 -> 12;
+    12 -> 13;
+    12 -> 14;
+    15 -> 16;
+    15 -> 17;
+}

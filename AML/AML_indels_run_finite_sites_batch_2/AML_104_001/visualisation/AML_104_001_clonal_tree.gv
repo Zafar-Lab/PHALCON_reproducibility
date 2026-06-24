@@ -1,0 +1,52 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="ZRSR2_15838366", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="DNMT3A_25536827", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="TET2_106156163\nIDH2_90631934\nPHF6_133511717", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="RAD21_117864217\nSETBP1_42532606", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="ZRSR2(dist=21)_15841403", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="TET2_106158315", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Box nodes — one per original PHALCON cluster
+    90001 [label="242 cells", shape=box, style="filled,rounded", fillcolor="#3cb44b", fontsize=10];
+    90002 [label="170 cells", shape=box, style="filled,rounded", fillcolor="#4363d8", fontsize=10];
+    90007 [label="22 cells", shape=box, style="filled,rounded", fillcolor="#911eb4", fontsize=10];
+    90006 [label="24 cells", shape=box, style="filled,rounded", fillcolor="#f58231", fontsize=10];
+    90005 [label="64 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90004 [label="79 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90003 [label="80 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90008 [label="18 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+    90000 [label="1241 cells", shape=box, style="filled,rounded", fillcolor="#e6194b", fontsize=10];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 5;
+    2 -> 3;
+    2 -> 4;
+    5 -> 6;
+    5 -> 7;
+    5 -> 8;
+    5 -> 9;
+    5 -> 10;
+    5 -> 11;
+    5 -> 12;
+
+    // Leaf → box edges
+    3 -> 90001;
+    4 -> 90002;
+    6 -> 90007;
+    7 -> 90006;
+    8 -> 90005;
+    9 -> 90004;
+    10 -> 90003;
+    11 -> 90008;
+    12 -> 90000;
+}

@@ -1,0 +1,44 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="TP53_7578203", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="KIT_55589768\nKIT_55589772\nKIT_55589774", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    13 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    14 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    15 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    16 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    17 [label="DNMT3A_25457242", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    18 [label="PPM1D_58740529", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    19 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 17;
+    2 -> 3;
+    2 -> 10;
+    3 -> 4;
+    3 -> 7;
+    4 -> 5;
+    4 -> 6;
+    7 -> 8;
+    7 -> 9;
+    10 -> 11;
+    10 -> 14;
+    11 -> 12;
+    11 -> 13;
+    14 -> 15;
+    14 -> 16;
+    17 -> 18;
+    17 -> 19;
+}

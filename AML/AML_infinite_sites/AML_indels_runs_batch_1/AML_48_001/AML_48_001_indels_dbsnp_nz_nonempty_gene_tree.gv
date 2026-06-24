@@ -1,9 +1,0 @@
-digraph G {
-13 [label="PTPN11_112927043"];
-15 [label="EZH2(NM_004456:c.*21delC,NM_001203249:c.*21delC,NM_001203248:c.*21delC,NM_001203247:c.*21delC,NM_152998:c.*21delC)_148504716,EZH2_148504854"];
-17 [label="NONE(dist=NONE),NONE(dist=NONE)_62094287"];
-27 [label="KRAS_25398279"];
-13 -> 15
-15 -> 17
-17 -> 27
-}

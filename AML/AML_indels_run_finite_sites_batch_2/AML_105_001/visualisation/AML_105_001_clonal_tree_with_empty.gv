@@ -1,0 +1,32 @@
+digraph CellPhyTree {
+    graph [rankdir=TB];
+    node  [fontname=Helvetica, fontsize=11];
+
+    1 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    2 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    3 [label="KIT_55599268", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    4 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    5 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    6 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    7 [label="TET2_106158315", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    8 [label="DNMT3A_25468168", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    9 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    10 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    11 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    12 [label="NRAS_115258748\nDNMT3A_25457243\nRUNX1_36259214\nU2AF1_44524456", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+    13 [label="", style=filled, fillcolor="#f5f5f5", shape=ellipse];
+
+    // Tree edges
+    1 -> 2;
+    1 -> 3;
+    3 -> 4;
+    3 -> 9;
+    4 -> 5;
+    4 -> 6;
+    6 -> 7;
+    6 -> 8;
+    9 -> 10;
+    9 -> 11;
+    11 -> 12;
+    11 -> 13;
+}

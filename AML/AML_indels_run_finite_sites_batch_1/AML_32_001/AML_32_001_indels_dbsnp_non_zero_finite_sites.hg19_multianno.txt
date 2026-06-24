@@ -1,0 +1,6 @@
+Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
+chr2	198266834	198266834	T	C	exonic	SF3B1	NA	nonsynonymous SNV	SF3B1:NM_012433:exon15:c.A2098G:p.K700E	2q33.1
+chr13	28592642	28592642	C	A	exonic	FLT3	NA	nonsynonymous SNV	FLT3:NM_004119:exon20:c.G2503T:p.D835Y	13q12.2
+chr13	28602227	28602232	AGAGAG	0	intronic	FLT3	NA	NA	NA	13q12.2
+chr13	28602228	28602228	G	C	intronic	FLT3	NA	NA	NA	13q12.2
+chr15	90631985	90631985	A	G	intronic	IDH2	NA	NA	NA	15q26.1

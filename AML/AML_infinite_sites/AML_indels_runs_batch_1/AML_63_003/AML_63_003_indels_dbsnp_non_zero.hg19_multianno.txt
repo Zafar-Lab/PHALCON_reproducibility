@@ -1,6 +1,0 @@
-Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
-chr4	55599436	55599436	T	C	intronic	KIT	NA	NA	NA	4q12
-chr12	112927043	112927043	C	T	intronic	PTPN11	NA	NA	NA	12q24.13
-chr13	28592546	28592546	T	C	intronic	FLT3	NA	NA	NA	13q12.2
-chr13	28602226	28602226	0	0	intronic	FLT3	NA	NA	NA	13q12.2
-chr18	9750662	9750662	T	C	intronic	RAB31	NA	NA	NA	18p11.22

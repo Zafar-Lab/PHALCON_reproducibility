@@ -1,4 +1,0 @@
-Chr	Start	End	Ref	Alt	Func.refGene	Gene.refGene	GeneDetail.refGene	ExonicFunc.refGene	AAChange.refGene	cytoBand
-chr2	209113113	209113113	G	A	exonic	IDH1	NA	nonsynonymous SNV	IDH1:NM_001282386:exon4:c.C394T:p.R132C,IDH1:NM_001282387:exon4:c.C394T:p.R132C,IDH1:NM_005896:exon4:c.C394T:p.R132C	2q34
-chr12	112927043	112927043	C	T	intronic	PTPN11	NA	NA	NA	12q24.13
-chr21	36252906	36252906	-	T	exonic	RUNX1	NA	frameshift insertion	RUNX1:NM_001001890:exon2:c.374dupA:p.N126Efs*7,RUNX1:NM_001122607:exon2:c.374dupA:p.N126Efs*7,RUNX1:NM_001754:exon5:c.455dupA:p.N153Efs*7	21q22.12

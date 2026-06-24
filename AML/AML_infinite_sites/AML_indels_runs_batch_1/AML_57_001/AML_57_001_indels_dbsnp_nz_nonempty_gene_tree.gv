@@ -1,9 +1,0 @@
-digraph G {
-11 [label="NONE(dist=NONE),NONE(dist=NONE)_62094388,SORCS3_106721610"];
-13 [label="IDH2_90631985"];
-18 [label="NPM1_170837543"];
-24 [label="IDH1_209113049"];
-11 -> 13
-13 -> 18
-13 -> 24
-}

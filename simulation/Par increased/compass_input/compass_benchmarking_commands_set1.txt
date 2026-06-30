@@ -1,0 +1,5 @@
+time ./COMPASS -i /home/priya/Downloads/Final\ Stage/Benchmarking/Par\ increased/compass_input/Data_1/Compass_input_data_2000_par_1 -o Compass_2000_par_1 --nchains 4 --chainlength 5000 --CNA 0 ;
+time ./COMPASS -i /home/priya/Downloads/Final\ Stage/Benchmarking/Par\ increased/compass_input/Data_2/Compass_input_data_2000_par_2 -o Compass_2000_par_2 --nchains 4 --chainlength 5000 --CNA 0 ;
+time ./COMPASS -i /home/priya/Downloads/Final\ Stage/Benchmarking/Par\ increased/compass_input/Data_3/Compass_input_data_2000_par_3 -o Compass_2000_par_3 --nchains 4 --chainlength 5000 --CNA 0 ;
+time ./COMPASS -i /home/priya/Downloads/Final\ Stage/Benchmarking/Par\ increased/compass_input/Data_4/Compass_input_data_2000_par_4 -o Compass_2000_par_4 --nchains 4 --chainlength 5000 --CNA 0 ;
+time ./COMPASS -i /home/priya/Downloads/Final\ Stage/Benchmarking/Par\ increased/compass_input/Data_5/Compass_input_data_2000_par_5 -o Compass_2000_par_5 --nchains 4 --chainlength 5000 --CNA 0 ;

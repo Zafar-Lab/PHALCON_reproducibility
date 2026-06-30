@@ -1,0 +1,8 @@
+runtime: 60281.08519792557 seconds
+fn: 0.20486897302230844
+fp: 0.0016190796333639282
+number of iterations: 15001
+best likelihood: -2602748.162760966 
+estimated false-negative rate: 0.20486897302230844 
+estimated false-positive rate: 0.0016190796333639282 
+missing data percentage: 0.01725345447662313 

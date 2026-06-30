@@ -1,0 +1,152 @@
+Dimensions of the input matrix:  (40000, 2004)
+Read count matrix shape after computing alternate alleles is:  (40000, 2004)
+-------After Genotype quality filter-------
+Read count matrix shape :  (40000, 2004)
+Length of alternate alleles :  40000
+
+
+-------After Read depth quality filter-------
+Read count matrix shape :  (40000, 2004)
+Length of alternate alleles :  40000
+
+
+Number of Sites:  40000
+Number of Cells:  2000
+Read count matrix shape:  (40000, 2004) 
+Likelihood matrix shape:  (40000, 2000) 
+Length of computed alternate alleles:  40000
+
+
+Computing likelihoods... 
+-------After computing likelihood matrix-------
+Read count matrix shape :  (40000, 2004)
+Likelihood matrix shape :  (40000, 2000)
+Length of alternate alleles :  40000
+
+
+-------After Alternate Allele Frequency filter-------
+Read count matrix shape :  (40000, 2004)
+Likelihood matrix shape :  (40000, 2000)
+Length of alternate alleles :  40000
+
+
+num of pos retained after third filter:  40000
+Positions retained after Variant removal filter :  40000
+-------After Variant removal filter-------
+Read count matrix shape :  (40000, 2004)
+Likelihood matrix shape :  (40000, 2000)
+Length of alternate alleles :  40000
+
+
+Read Count data dimension at start of VariantRemovalMutated filter:  (40000, 2004)
+Length of positions retained after FINAL FILTER:  50
+chr1 	 1904 	 C 	  alt inferred:  A  true_alt:  A
+chr1 	 3869 	 C 	  alt inferred:  A  true_alt:  A
+chr1 	 4417 	 A 	  alt inferred:  T  true_alt:  T
+chr1 	 8674 	 C 	  alt inferred:  A  true_alt:  A
+chr1 	 12871 	 G 	  alt inferred:  A  true_alt:  A
+chr1 	 13772 	 G 	  alt inferred:  T  true_alt:  T
+chr1 	 13818 	 C 	  alt inferred:  G  true_alt:  G
+chr1 	 14704 	 G 	  alt inferred:  C  true_alt:  C
+chr1 	 14967 	 C 	  alt inferred:  T  true_alt:  T
+chr1 	 15433 	 C 	  alt inferred:  G  true_alt:  G
+chr1 	 15918 	 G 	  alt inferred:  A  true_alt:  A
+chr1 	 17343 	 A 	  alt inferred:  T  true_alt:  T
+chr1 	 18777 	 A 	  alt inferred:  T  true_alt:  T
+chr1 	 19613 	 T 	  alt inferred:  G  true_alt:  G
+chr1 	 19719 	 T 	  alt inferred:  A  true_alt:  A
+chr1 	 20183 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 20931 	 T 	  alt inferred:  C  true_alt:  C
+chr1 	 21541 	 T 	  alt inferred:  A  true_alt:  A
+chr1 	 22425 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 23588 	 T 	  alt inferred:  C  true_alt:  C
+chr1 	 23862 	 C 	  alt inferred:  G  true_alt:  G
+chr1 	 24168 	 T 	  alt inferred:  G  true_alt:  G
+chr1 	 24499 	 C 	  alt inferred:  A  true_alt:  A
+chr1 	 25283 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 26132 	 C 	  alt inferred:  T  true_alt:  T
+chr1 	 26444 	 C 	  alt inferred:  G  true_alt:  G
+chr1 	 28019 	 C 	  alt inferred:  T  true_alt:  T
+chr1 	 30063 	 G 	  alt inferred:  C  true_alt:  C
+chr1 	 30138 	 C 	  alt inferred:  A  true_alt:  A
+chr1 	 30233 	 T 	  alt inferred:  G  true_alt:  G
+chr1 	 30271 	 A 	  alt inferred:  G  true_alt:  G
+chr1 	 30621 	 A 	  alt inferred:  G  true_alt:  G
+chr1 	 31625 	 G 	  alt inferred:  A  true_alt:  A
+chr1 	 32238 	 C 	  alt inferred:  T  true_alt:  T
+chr1 	 32498 	 G 	  alt inferred:  A  true_alt:  A
+chr1 	 33097 	 T 	  alt inferred:  G  true_alt:  G
+chr1 	 33642 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 33856 	 C 	  alt inferred:  G  true_alt:  G
+chr1 	 33863 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 34198 	 T 	  alt inferred:  G  true_alt:  G
+chr1 	 34256 	 A 	  alt inferred:  G  true_alt:  G
+chr1 	 35655 	 A 	  alt inferred:  T  true_alt:  T
+chr1 	 35661 	 G 	  alt inferred:  A  true_alt:  A
+chr1 	 35735 	 G 	  alt inferred:  T  true_alt:  T
+chr1 	 35989 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 36349 	 T 	  alt inferred:  C  true_alt:  C
+chr1 	 38414 	 A 	  alt inferred:  T  true_alt:  T
+chr1 	 39077 	 T 	  alt inferred:  A  true_alt:  A
+chr1 	 39129 	 A 	  alt inferred:  C  true_alt:  C
+chr1 	 39850 	 T 	  alt inferred:  C  true_alt:  C
+-------After Variant removal mutated filter-------
+Read count matrix shape :  (50, 2004)
+Likelihood matrix shape :  (40000, 2000)
+Length of alternate alleles :  50
+-------Filters applied !-------
+Time taken for filtering:  753.0363168716431
+
+
+Computing lklhd after filters....
+-------Final dimensions after all filters are applied-------
+Read count matrix shape :  (50, 2004)
+Likelihood matrix shape :  (50, 2000)
+Length of alternate alleles :  50
+
+
+Time taken for computing laplacian:  2.2551965713500977  secs
+Number of candidate clusters after applying eigen gap heuristic:  8
+
+Number of clusters : 8
+Start cluster :  8
+End cluster :  8
+At cluster : 8
+Tree we are sending :  
+         /-c2
+      /-|
+   /-|   \-c1
+  |  |
+  |   \-c8
+--|
+  |      /-c7
+  |   /-|
+  |  |   \-c6
+   \-|
+     |   /-c5
+      \-|
+        |   /-c4
+         \-|
+            \-c3
+Tree left behind : 
+-- /-N
+iteration #  0
+iteration #  1
+iteration #  2
+iteration #  3
+iteration #  4
+no more better proposed trees
+terminating the search
+Algorithm completed in:  827.5558755397797  secs
+-------Final dimensions after the complete algorithm -------
+Number of cells :  2000
+Number of genomic positions retained :  50
+Read count matrix shape :  (50, 2004)
+Likelihood matrix shape :  (2000, 50)
+Inferred genotypes matrix :  (50, 2000)
+Length of alternate alleles :  50
+-------------------------------------------------------
+-------------------------------------------------------
+Writing inferred genotypes as VCF file...
+Final inferred clusters in the tree:  8
+Final inferred distinct genotypes:  8

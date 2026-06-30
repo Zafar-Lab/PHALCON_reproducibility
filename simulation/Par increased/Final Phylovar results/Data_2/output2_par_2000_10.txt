@@ -1,0 +1,184 @@
+Namespace(M=1, c=1, errN=100, indir='/home/priya/Phylovar/Phylovar/Phylovar_input_par/Data_2/', infile='phylo_input_data_par_2_2000_10.mpileup', intree=None, mdthr=1, mode=0, names='cell2000.txt', niter=15000, out='./output2_par/', stats='phylovar_stats.txt', stoch=True, tm=None, vcf='snv.vcf', verbose=True, w=1000)
+parsing the mpileup file ...
+parsing the mpileup file is done
+percentage of missing data in the dataset 0.00016392501912777352
+parsing the mpileup file was done in 80.16060996055603 seconds
+number of cells 2000
+number of candidate loci 5228
+estimating the false error rates by NJ tree
+(10454286, 2)
+calculating likelihood scores for non-missing entries ...
+the calculation was done in 2.3293161392211914 seconds
+matrix calculations ...
+estimated false-negative rate 0.19418781025923848
+estimated false-positive rate 0.001635009636630218
+constructing the NJ tree in thread 1
+NJ tree in thread 1 was computed in 795.4266092777252 seconds
+computing the best likelihood took 1.437896966934204 seconds
+searching thread # 1
+iteration # 1 in thread 1, best likelihood -2616703.255123227 best alpha 0.001635009636630218 best beta 0.19418781025923848
+iteration # 101 in thread 1, best likelihood -2616700.3295034976 best alpha 0.001635009636630218 best beta 0.19418781025923848
+iteration # 201 in thread 1, best likelihood -2616671.1463052994 best alpha 0.001620043678270599 best beta 0.19500935317235546
+iteration # 301 in thread 1, best likelihood -2616663.569795005 best alpha 0.001620043678270599 best beta 0.19500935317235546
+iteration # 401 in thread 1, best likelihood -2616656.121291341 best alpha 0.0016198520759549023 best beta 0.195044102000892
+iteration # 501 in thread 1, best likelihood -2616650.8498930475 best alpha 0.0016195650616039764 best beta 0.1951307391393861
+iteration # 601 in thread 1, best likelihood -2616645.4206002513 best alpha 0.0016195645942421724 best beta 0.19508930869408522
+iteration # 701 in thread 1, best likelihood -2616635.0789572736 best alpha 0.0016195645942421724 best beta 0.19508930869408522
+iteration # 801 in thread 1, best likelihood -2616634.32578903 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 901 in thread 1, best likelihood -2616630.2674897173 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1001 in thread 1, best likelihood -2616628.7297162823 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1101 in thread 1, best likelihood -2616628.7297162823 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1201 in thread 1, best likelihood -2616628.245055529 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1301 in thread 1, best likelihood -2616628.245055529 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1401 in thread 1, best likelihood -2616628.245055529 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1501 in thread 1, best likelihood -2616623.100136753 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1601 in thread 1, best likelihood -2616617.981784096 best alpha 0.0016192774236617083 best beta 0.1951621204323208
+iteration # 1701 in thread 1, best likelihood -2616611.6593571156 best alpha 0.001619565684753468 best beta 0.1951859730990938
+iteration # 1801 in thread 1, best likelihood -2616605.6995744426 best alpha 0.001619565684753468 best beta 0.1951859730990938
+iteration # 1901 in thread 1, best likelihood -2616605.3243586733 best alpha 0.0016192782024607565 best beta 0.19523115189981954
+iteration # 2001 in thread 1, best likelihood -2616605.3243586733 best alpha 0.0016192782024607565 best beta 0.19523115189981954
+iteration # 2101 in thread 1, best likelihood -2616605.3243586733 best alpha 0.0016192782024607565 best beta 0.19523115189981954
+iteration # 2201 in thread 1, best likelihood -2616605.3243586733 best alpha 0.0016192782024607565 best beta 0.19523115189981954
+iteration # 2301 in thread 1, best likelihood -2616605.3243586733 best alpha 0.0016192782024607565 best beta 0.19523115189981954
+iteration # 2401 in thread 1, best likelihood -2616595.49945803 best alpha 0.0016192782024607565 best beta 0.19523115189981954
+iteration # 2501 in thread 1, best likelihood -2616594.029927044 best alpha 0.0016189910312456323 best beta 0.19530392425905563
+iteration # 2601 in thread 1, best likelihood -2616592.5158561394 best alpha 0.0016189910312456323 best beta 0.19530392425905563
+iteration # 2701 in thread 1, best likelihood -2616591.927870907 best alpha 0.0016189913427104845 best beta 0.1953315267725445
+iteration # 2801 in thread 1, best likelihood -2616583.3170366352 best alpha 0.0016189913427104845 best beta 0.1953315267725445
+iteration # 2901 in thread 1, best likelihood -2616581.236244941 best alpha 0.0016189899411195934 best beta 0.19520730054719762
+iteration # 3001 in thread 1, best likelihood -2616576.0256817457 best alpha 0.001618798337781045 best beta 0.195242015711296
+iteration # 3101 in thread 1, best likelihood -2616573.958366622 best alpha 0.0016187978706396872 best beta 0.19520060378394105
+iteration # 3201 in thread 1, best likelihood -2616571.2744213087 best alpha 0.0016187978706396872 best beta 0.19520060378394105
+iteration # 3301 in thread 1, best likelihood -2616570.4233417884 best alpha 0.0016187978706396872 best beta 0.19520060378394105
+iteration # 3401 in thread 1, best likelihood -2616562.742698094 best alpha 0.0016187978706396872 best beta 0.19520060378394105
+iteration # 3501 in thread 1, best likelihood -2616559.4828773495 best alpha 0.0016186062671719004 best beta 0.1952353183315035
+iteration # 3601 in thread 1, best likelihood -2616558.2012635395 best alpha 0.0016185105432119998 best beta 0.1952595743221222
+iteration # 3701 in thread 1, best likelihood -2616556.4709983757 best alpha 0.0016185105432119998 best beta 0.1952595743221222
+iteration # 3801 in thread 1, best likelihood -2616556.4709983757 best alpha 0.0016185105432119998 best beta 0.1952595743221222
+iteration # 3901 in thread 1, best likelihood -2616556.4709983757 best alpha 0.0016185105432119998 best beta 0.1952595743221222
+iteration # 4001 in thread 1, best likelihood -2616547.077058803 best alpha 0.0016185105432119998 best beta 0.1952595743221222
+iteration # 4101 in thread 1, best likelihood -2616543.6343570594 best alpha 0.0016183187837907251 best beta 0.19528047881188765
+iteration # 4201 in thread 1, best likelihood -2616534.601532551 best alpha 0.0016182235266595664 best beta 0.19534612548656446
+iteration # 4301 in thread 1, best likelihood -2616525.5236714715 best alpha 0.0016180317669434023 best beta 0.19536702045575316
+iteration # 4401 in thread 1, best likelihood -2616513.7846049513 best alpha 0.0016178396958357484 best beta 0.19536032097114311
+iteration # 4501 in thread 1, best likelihood -2616513.057103285 best alpha 0.0016175512778472331 best beta 0.19532268020026028
+iteration # 4601 in thread 1, best likelihood -2616513.057103285 best alpha 0.0016175512778472331 best beta 0.19532268020026028
+iteration # 4701 in thread 1, best likelihood -2616509.8518869625 best alpha 0.0016175512778472331 best beta 0.19532268020026028
+iteration # 4801 in thread 1, best likelihood -2616508.838102174 best alpha 0.0016175509666588848 best beta 0.19529508590240355
+iteration # 4901 in thread 1, best likelihood -2616507.268163304 best alpha 0.0016174547754739027 best beta 0.19527793971400123
+iteration # 5001 in thread 1, best likelihood -2616507.1692734743 best alpha 0.0016173592065917152 best beta 0.19531598258066693
+iteration # 5101 in thread 1, best likelihood -2616505.537755535 best alpha 0.0016173592065917152 best beta 0.19531598258066693
+iteration # 5201 in thread 1, best likelihood -2616505.537755507 best alpha 0.0016173592065917152 best beta 0.19531598258066693
+iteration # 5301 in thread 1, best likelihood -2616505.537755507 best alpha 0.0016173592065917152 best beta 0.19531598258066693
+iteration # 5401 in thread 1, best likelihood -2616505.2570467927 best alpha 0.0016173590510159717 best beta 0.1953021860265749
+iteration # 5501 in thread 1, best likelihood -2616505.2570467927 best alpha 0.0016173590510159717 best beta 0.1953021860265749
+iteration # 5601 in thread 1, best likelihood -2616502.8860554816 best alpha 0.0016173590510159717 best beta 0.1953021860265749
+iteration # 5701 in thread 1, best likelihood -2616498.19070683 best alpha 0.0016173590510159717 best beta 0.1953021860265749
+iteration # 5801 in thread 1, best likelihood -2616493.5248597544 best alpha 0.0016173590510159717 best beta 0.1953021860265749
+iteration # 5901 in thread 1, best likelihood -2616490.9110450204 best alpha 0.0016169761526317753 best beta 0.1953991463393726
+iteration # 6001 in thread 1, best likelihood -2616484.00620807 best alpha 0.0016169761526317753 best beta 0.1953991463393726
+iteration # 6101 in thread 1, best likelihood -2616480.4292466706 best alpha 0.0016167848586289592 best beta 0.19546140134375395
+iteration # 6201 in thread 1, best likelihood -2616472.8262694525 best alpha 0.0016167845475874578 best beta 0.1954338212608409
+iteration # 6301 in thread 1, best likelihood -2616472.5107903806 best alpha 0.001616592942358833 best beta 0.19546849023942928
+iteration # 6401 in thread 1, best likelihood -2616467.932878787 best alpha 0.001616592942358833 best beta 0.19546849023942928
+iteration # 6501 in thread 1, best likelihood -2616467.7559218146 best alpha 0.0016164970619288153 best beta 0.195478928516341
+iteration # 6601 in thread 1, best likelihood -2616467.0894913836 best alpha 0.0016164970619288153 best beta 0.195478928516341
+iteration # 6701 in thread 1, best likelihood -2616467.0894913836 best alpha 0.0016164970619288153 best beta 0.195478928516341
+iteration # 6801 in thread 1, best likelihood -2616462.6371672926 best alpha 0.0016164970619288153 best beta 0.195478928516341
+iteration # 6901 in thread 1, best likelihood -2616459.6237015068 best alpha 0.0016164016479139772 best beta 0.1955307262569829
+iteration # 7001 in thread 1, best likelihood -2616454.776931801 best alpha 0.0016164016479139772 best beta 0.1955307262569829
+iteration # 7101 in thread 1, best likelihood -2616454.5000846423 best alpha 0.001616209731348659 best beta 0.19553781037407647
+iteration # 7201 in thread 1, best likelihood -2616442.3952801186 best alpha 0.001616209731348659 best beta 0.19553781037407647
+iteration # 7301 in thread 1, best likelihood -2616437.7325122524 best alpha 0.0016161135398398295 best beta 0.195520674469215
+iteration # 7401 in thread 1, best likelihood -2616430.994070593 best alpha 0.0016160175037781624 best beta 0.19551732410295042
+iteration # 7501 in thread 1, best likelihood -2616430.8370926143 best alpha 0.0016160168819896938 best beta 0.1954621791136851
+iteration # 7601 in thread 1, best likelihood -2616428.704060997 best alpha 0.0016160168819896938 best beta 0.1954621791136851
+iteration # 7701 in thread 1, best likelihood -2616425.7749171956 best alpha 0.001615921001384292 best beta 0.19547261635478752
+iteration # 7801 in thread 1, best likelihood -2616414.8101095716 best alpha 0.001615921001384292 best beta 0.19547261635478752
+iteration # 7901 in thread 1, best likelihood -2616412.845778142 best alpha 0.001615920224195344 best beta 0.1954036777433117
+iteration # 8001 in thread 1, best likelihood -2616409.544330051 best alpha 0.0016159200687576442 best beta 0.19538988860325587
+iteration # 8101 in thread 1, best likelihood -2616403.255391129 best alpha 0.0016159197578823343 best beta 0.1953623089051892
+iteration # 8201 in thread 1, best likelihood -2616403.255391129 best alpha 0.0016159197578823343 best beta 0.1953623089051892
+iteration # 8301 in thread 1, best likelihood -2616400.031121082 best alpha 0.0016159197578823343 best beta 0.1953623089051892
+iteration # 8401 in thread 1, best likelihood -2616399.952689057 best alpha 0.0016157279967079434 best beta 0.19538319166438134
+iteration # 8501 in thread 1, best likelihood -2616393.822034392 best alpha 0.0016157279967079434 best beta 0.19538319166438134
+iteration # 8601 in thread 1, best likelihood -2616393.605542604 best alpha 0.0016156319606553794 best beta 0.19537984336709305
+iteration # 8701 in thread 1, best likelihood -2616388.638024562 best alpha 0.0016156319606553794 best beta 0.19537984336709305
+iteration # 8801 in thread 1, best likelihood -2616386.710925137 best alpha 0.0016156319606553794 best beta 0.19537984336709305
+iteration # 8901 in thread 1, best likelihood -2616382.19121954 best alpha 0.0016156319606553794 best beta 0.19537984336709305
+iteration # 9001 in thread 1, best likelihood -2616377.9567942386 best alpha 0.0016156319606553794 best beta 0.19537984336709305
+iteration # 9101 in thread 1, best likelihood -2616377.6185005144 best alpha 0.0016155354583820944 best beta 0.19533512707579956
+iteration # 9201 in thread 1, best likelihood -2616377.6185005144 best alpha 0.0016155354583820944 best beta 0.19533512707579956
+iteration # 9301 in thread 1, best likelihood -2616377.6185005144 best alpha 0.0016155354583820944 best beta 0.19533512707579956
+iteration # 9401 in thread 1, best likelihood -2616377.6185005144 best alpha 0.0016155354583820944 best beta 0.19533512707579956
+iteration # 9501 in thread 1, best likelihood -2616377.6185005144 best alpha 0.0016155354583820944 best beta 0.19533512707579956
+iteration # 9601 in thread 1, best likelihood -2616370.235995585 best alpha 0.0016155354583820944 best beta 0.19533512707579956
+iteration # 9701 in thread 1, best likelihood -2616370.0192274116 best alpha 0.0016154403546696703 best beta 0.19541451043558689
+iteration # 9801 in thread 1, best likelihood -2616365.7411345365 best alpha 0.0016154403546696703 best beta 0.19541451043558689
+iteration # 9901 in thread 1, best likelihood -2616364.067283702 best alpha 0.001615248593126363 best beta 0.19543538603886057
+iteration # 10001 in thread 1, best likelihood -2616362.376738282 best alpha 0.0016151530230275938 best beta 0.19547339204331254
+iteration # 10101 in thread 1, best likelihood -2616354.4969223957 best alpha 0.0016151528676634679 best beta 0.19545960764156567
+iteration # 10201 in thread 1, best likelihood -2616352.609122581 best alpha 0.0016150566760806163 best beta 0.19544247408549612
+iteration # 10301 in thread 1, best likelihood -2616352.5679201907 best alpha 0.0016150565207257732 best beta 0.19542868891782572
+iteration # 10401 in thread 1, best likelihood -2616350.4396153837 best alpha 0.0016150565207257732 best beta 0.19542868891782572
+iteration # 10501 in thread 1, best likelihood -2616342.4049334144 best alpha 0.0016149607951890348 best beta 0.19545291003477958
+iteration # 10601 in thread 1, best likelihood -2616342.049666237 best alpha 0.0016147690332951965 best beta 0.19547377978790803
+iteration # 10701 in thread 1, best likelihood -2616337.508417748 best alpha 0.0016147690332951965 best beta 0.19547377978790803
+iteration # 10801 in thread 1, best likelihood -2616335.6610473013 best alpha 0.0016146731522929398 best beta 0.19548421359190002
+iteration # 10901 in thread 1, best likelihood -2616326.149307777 best alpha 0.001614672996974869 best beta 0.195470431028575
+iteration # 11001 in thread 1, best likelihood -2616320.961488676 best alpha 0.0016145766500184591 best beta 0.19543951619811173
+iteration # 11101 in thread 1, best likelihood -2616313.5998395476 best alpha 0.0016145766500184591 best beta 0.19543951619811173
+iteration # 11201 in thread 1, best likelihood -2616304.336222039 best alpha 0.0016145766500184591 best beta 0.19543951619811173
+iteration # 11301 in thread 1, best likelihood -2616302.4885368594 best alpha 0.001614384111451469 best beta 0.19539146821997566
+iteration # 11401 in thread 1, best likelihood -2616302.4885368594 best alpha 0.001614384111451469 best beta 0.19539146821997566
+iteration # 11501 in thread 1, best likelihood -2616295.8538093315 best alpha 0.001614384111451469 best beta 0.19539146821997566
+iteration # 11601 in thread 1, best likelihood -2616293.787290364 best alpha 0.0016142880751033532 best beta 0.19538812081341728
+iteration # 11701 in thread 1, best likelihood -2616287.3592660567 best alpha 0.0016141920387367612 best beta 0.1953847735215511
+iteration # 11801 in thread 1, best likelihood -2616284.2250643857 best alpha 0.0016140960023516937 best beta 0.1953814263443712
+iteration # 11901 in thread 1, best likelihood -2616281.176965748 best alpha 0.0016140960023516937 best beta 0.1953814263443712
+iteration # 12001 in thread 1, best likelihood -2616279.370289878 best alpha 0.0016139045505028614 best beta 0.1954298634783052
+iteration # 12101 in thread 1, best likelihood -2616274.4380997526 best alpha 0.001613904395258634 best beta 0.19541608140052724
+iteration # 12201 in thread 1, best likelihood -2616272.689266383 best alpha 0.0016139039295261308 best beta 0.19537473233404676
+iteration # 12301 in thread 1, best likelihood -2616269.3344003703 best alpha 0.001613903774282023 best beta 0.19536094836742351
+iteration # 12401 in thread 1, best likelihood -2616264.262967965 best alpha 0.001613807893085636 best beta 0.19537138550089045
+iteration # 12501 in thread 1, best likelihood -2616260.882291443 best alpha 0.0016138074273810705 best beta 0.19533003272060678
+iteration # 12601 in thread 1, best likelihood -2616260.8038121713 best alpha 0.0016138071169115096 best beta 0.19530246183892652
+iteration # 12701 in thread 1, best likelihood -2616260.8038121713 best alpha 0.0016138071169115096 best beta 0.19530246183892652
+iteration # 12801 in thread 1, best likelihood -2616256.209567632 best alpha 0.0016138071169115096 best beta 0.19530246183892652
+iteration # 12901 in thread 1, best likelihood -2616252.9447750095 best alpha 0.0016136156649327793 best beta 0.19535090874830807
+iteration # 13001 in thread 1, best likelihood -2616245.440863209 best alpha 0.0016136156649327793 best beta 0.19535090874830807
+iteration # 13101 in thread 1, best likelihood -2616245.184754475 best alpha 0.0016135196284460798 best beta 0.19534756243790435
+iteration # 13201 in thread 1, best likelihood -2616232.1654903777 best alpha 0.0016135196284460798 best beta 0.19534756243790435
+iteration # 13301 in thread 1, best likelihood -2616231.4923302843 best alpha 0.0016130411525091981 best beta 0.19548241257663423
+iteration # 13401 in thread 1, best likelihood -2616228.2634144374 best alpha 0.0016130411525091981 best beta 0.19548241257663423
+iteration # 13501 in thread 1, best likelihood -2616228.2634144374 best alpha 0.0016130411525091981 best beta 0.19548241257663423
+iteration # 13601 in thread 1, best likelihood -2616228.2634144374 best alpha 0.0016130411525091981 best beta 0.19548241257663423
+iteration # 13701 in thread 1, best likelihood -2616226.7904489804 best alpha 0.0016130411525091981 best beta 0.19548241257663423
+iteration # 13801 in thread 1, best likelihood -2616225.3151401943 best alpha 0.0016131362581664423 best beta 0.19540308630345762
+iteration # 13901 in thread 1, best likelihood -2616223.5843756357 best alpha 0.001613040687025089 best beta 0.19544107824835985
+iteration # 14001 in thread 1, best likelihood -2616218.9639780493 best alpha 0.001613040531863779 best beta 0.1954272991950673
+iteration # 14101 in thread 1, best likelihood -2616213.913288921 best alpha 0.0016129446503537503 best beta 0.19543773119605393
+iteration # 14201 in thread 1, best likelihood -2616207.034609389 best alpha 0.0016129441848975789 best beta 0.19539639315624485
+iteration # 14301 in thread 1, best likelihood -2616204.9960488947 best alpha 0.0016126566953533266 best beta 0.19544146859373895
+iteration # 14401 in thread 1, best likelihood -2616201.5172990877 best alpha 0.0016125606585988613 best beta 0.1954381218213261
+iteration # 14501 in thread 1, best likelihood -2616201.4389549103 best alpha 0.0016125603483684418 best beta 0.1954105659731138
+iteration # 14601 in thread 1, best likelihood -2616198.548918821 best alpha 0.0016125603483684418 best beta 0.1954105659731138
+iteration # 14701 in thread 1, best likelihood -2616198.2535063094 best alpha 0.0016125598830230362 best beta 0.19536922866146014
+iteration # 14801 in thread 1, best likelihood -2616191.641695196 best alpha 0.0016125598830230362 best beta 0.19536922866146014
+iteration # 14901 in thread 1, best likelihood -2616187.610366393 best alpha 0.0016125597279079606 best beta 0.19535544861365586
+processing thread 1 was done in 57970.66427564621 seconds: best beta 0.1955245090485726, best alpha 0.0016122736338383347, best likelihood -2616185.538078041
+average runtime per iteration 3.8208621757712007
+the best likelihood is -2616185.538078041 for false-negative rate 0.1955245090485726 and false-positive rate 0.0016122736338383347
+table of reports from threads
+-----------------------------------------------------------
+best likelihood from thread 1: -2616185.538078041, 0.0016122736338383347, 0.1955245090485726, 8ce2c1232c99c0444dbd6ad494b62feb
+-----------------------------------------------------------
+pairwise RF distances between the trees
+========================================================
+    RF_to_p1  log_likelihood                       topology_id
+p1         0   -2.616186e+06  8ce2c1232c99c0444dbd6ad494b62feb
+Writing the VCF files of all chains
+Writing the VCF files is done!
+total runtime was 58740.94323539734
+dimension of the read count matrix:  (2000, 5228, 2)
+dimension of the genotype matrix:  (2000, 5228)

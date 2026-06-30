@@ -1,0 +1,6 @@
+cd Data_1; python3 compass_input.py; cd ..;
+cd Data_2; python3 compass_input.py; cd ..; 
+cd Data_3; python3 compass_input.py; cd .. ; 
+cd Data_4; python3 compass_input.py; cd ..;
+cd Data_5; python3 compass_input.py
+
